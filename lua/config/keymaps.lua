@@ -4,6 +4,7 @@
 
 -- keymap to split window to right
 vim.api.nvim_set_keymap("n", "<leader>\\", "<Cmd>vsplit<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("i", "<C-H>", "<C-w>", { noremap = true, silent = true })
 -- -- keymap to toggle terminal
 -- vim.api.nvim_set_keymap(
 --   "n",
